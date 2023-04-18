@@ -1,4 +1,19 @@
 #cabecera {
+    margin-top: -176px;
+    margin-left:  200px;
+    margin-right: 200px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    flex-direction: column;
+}
+#cabecera2 {
     margin-top: -16px;
     margin-left:  200px;
     margin-right: 200px;
