@@ -14,9 +14,11 @@
     flex-direction: column;
 }
 #cabecera2 {
-    margin-top: -16px;
+    margin-top: -416px;
     margin-left:  200px;
     margin-right: 200px;
+    border: solid 5px white;
+    padding-bottom: -20px;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
@@ -78,5 +80,18 @@ li {
 }
 
 #Alternatives-universes {
-    display: grid;
+    display: flex;
+    align-items: flex-end;
+    justify-items: end;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 400px;
+}
+
+
+
+.Imagenes {
+    border: solid 3px white;
+    border-radius: 30px;
 }
