@@ -40,3 +40,14 @@ h2{
     font-size: 40px;
     font-family: sans-serif
 }
+p {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+img {
+    justify-self: center;
+}
+li {
+    font-size: 35px;
+    font-family: sans-serif;
+}
