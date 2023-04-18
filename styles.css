@@ -1,5 +1,5 @@
 #cabecera {
-    margin-top: -16px;
+    margin-top: -176px;
     margin-left:  200px;
     margin-right: 200px;
     font-size: 30px;
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 #cabecera:hover {
-    background-color: rgb(46, 46, 46);
+    background-color: #2e2e2e;
     cursor: pointer;
 }
 
@@ -24,4 +24,19 @@
     margin-top: 20px;
     margin-bottom: -10px;
     font-size: 20px;
+}
+#contenido-base {
+    display: grid;
+    justify-content: center;
+    margin-top: 170px;
+    align-content: space-around;
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: #1f1f1f;
+}
+h2{
+    font-size: 40px;
+    font-family: sans-serif
 }
