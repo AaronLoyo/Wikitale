@@ -1,97 +1,20 @@
-#cabecera {
-    margin-top: -176px;
-    margin-left:  200px;
-    margin-right: 200px;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    color: whitesmoke;
+#navegation {
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-color: black;
-    position: fixed;
-    flex-direction: column;
-}
-#cabecera2 {
-    margin-top: -416px;
-    margin-left:  200px;
-    margin-right: 200px;
-    border: solid 5px white;
-    padding-bottom: -20px;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-color: black;
-    position: fixed;
-    flex-direction: column;
-}
-#cabecera:hover {
-    background-color: #2e2e2e;
-    cursor: pointer;
-}
-
-#especial {
-    text-decoration: none;
-    color: azure;
-    margin-top: 20px;
-    margin-bottom: -10px;
-    font-size: 20px;
-}
-#contenido-base {
-    display: grid;
-    justify-content: center;
-    margin-top: 170px;
-    align-content: space-around;
-    color: white;
-    text-align: center;
-}
-.principal {
-    background-color: #1f1f1f;
-}
-.multiverse-background {
-    background-image: url(Background.jpg);
-    background-size: 210vh;
-    background-repeat: no-repeat;
-}
-h2{
-    font-size: 40px;
-    font-family: sans-serif
 }
 p {
-    font-size: 35px;
-    font-family: sans-serif;
+    font-family:Arial;
+    font-size:20px;
 }
-img {
-    justify-self: center;
-    display: inline;
+.cabeza {
+    margin-left: 60px;
+    margin-right: 60px;
+    color: whitesmoke;
 }
-li {
-    font-size: 35px;
-    font-family: sans-serif;
+body {
+    background-color: black;
 }
-.portal {
-    display: inline;
-    inline-size: 200px;
-}
-
-#Alternatives-universes {
-    display: flex;
-    align-items: flex-end;
-    justify-items: end;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin-top: 400px;
-}
-
-
-
-.Imagenes {
-    border: solid 3px white;
-    border-radius: 30px;
+.cabeza:hover {
+    color: rgb(255, 198, 9);
+    cursor: pointer;
 }
