@@ -50,4 +50,7 @@ body {
         margin-left: 15px;
         margin-right: 15px;
     }
+    .contenidos {
+        inline-size: 400px;
+    }
 }
