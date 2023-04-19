@@ -1,0 +1,36 @@
+#head {
+    display: inline-grid;
+    background: 200px 20px #000000;
+    background-size: 20px;
+    inline-size: 101%;
+    margin: -8px;
+    color: rgb(0, 0, 0);
+    position: static;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+button {
+    display: inline-block;
+    inline-size: 50px;
+    justify-self: center;
+    border: solid 3px yellow;
+    background: gold;
+}
+
+body {
+    background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+    #head {
+        inline-size: 108%;
+    }
+}
