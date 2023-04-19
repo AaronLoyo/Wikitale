@@ -2,14 +2,40 @@
     display: flex;
     justify-content: center;
 }
+p {
+    color: rgba(243, 243, 0, 0.938);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+.contenidos {
+    display: inline-flex;
+    align-items: end;
+    border: solid 2px yellow;
+    inline-size: 800px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
 .cabeza {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: whitesmoke;
     font-family:Arial;
     font-size:18px;
     text-decoration: none;
     margin-top: 20px;
+}
+#contenido {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 body {
     background-color: black;
