@@ -30,6 +30,13 @@ h1 {
     text-decoration: none;
     margin-top: 20px;
 }
+.novisible {
+    display: none;
+}
+.centrado {
+    display: flex;
+    flex-direction: column;
+}
 #contenido {
     display: flex;
     justify-content: center;
@@ -52,6 +59,11 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 10px;
+}
+.perfiles:hover {
+    padding: 8px;
+    border: solid 2px blue;
+    cursor: pointer;
 }
 @media screen and (max-width: 800px) {
     .cabeza {
