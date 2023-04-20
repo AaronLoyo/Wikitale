@@ -44,6 +44,15 @@ body {
     color: rgb(255, 198, 9);
     cursor: pointer;
 }
+.perfiles {
+    border: solid 2px yellow;
+    position: relative;
+    right: 110px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
 @media screen and (max-width: 800px) {
     .cabeza {
         font-size: 12px;
@@ -52,5 +61,8 @@ body {
     }
     .contenidos {
         inline-size: 400px;
+    }
+    .perfiles {
+        right: 22px;
     }
 }
