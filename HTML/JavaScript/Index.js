@@ -1,7 +1,20 @@
-const perfiles = document.querySelector("#click")
-function mensaje() {
-    perfiles.classList.remove("centrado")
-    perfiles.classList.add("novisible")
+const papyrusFor = document.getElementById("papyrus")
+const undyneFor = document.getElementById("undyne")
+const sansFor = document.getElementById("sans")
+const noone1 = document.getElementById("noone1")
+const noone2 = document.getElementById("noone2")
+const noone3 = document.getElementById("noone3")
+const foro1 = document.getElementById("foro-de-papyrus")
+function mostrarPapyrus() {
+    papyrusFor.classList.add("novisible")
+    undyneFor.classList.add("novisible")
+    sansFor.classList.add("novisible")
+    noone1.classList.add("novisible")
+    noone2.classList.add("novisible")
+    noone3.classList.add("novisible")
+    foro1.classList.remove("novisible")
+    foro1.classList.add("papyrus-styles")
 }
 
-perfiles.addEventListener("click", mensaje)
+
+papyrusFor.addEventListener("click", mostrarPapyrus)
