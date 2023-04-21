@@ -5,6 +5,9 @@ const noone1 = document.getElementById("noone1")
 const noone2 = document.getElementById("noone2")
 const noone3 = document.getElementById("noone3")
 const foro1 = document.getElementById("foro-de-papyrus")
+const papyrus = document.getElementById("papyrus-click")
+const undyne = document.getElementById("undyne-click")
+const sans = document.getElementById("sans-click")
 function mostrarPapyrus() {
     papyrusFor.classList.add("novisible")
     undyneFor.classList.add("novisible")
@@ -17,4 +20,4 @@ function mostrarPapyrus() {
 }
 
 
-papyrusFor.addEventListener("click", mostrarPapyrus)
+papyrus.addEventListener("click", mostrarPapyrus)
